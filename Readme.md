@@ -10,8 +10,9 @@
 
 # Functionally test app
 make clean
-make
-bin/main-go
+make local
+dist/main
+dist/get
 
 curl http://localhost:8001 ({/counter} {/counter/get})
 

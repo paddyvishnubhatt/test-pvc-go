@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-	"test-pvc-go/test-pvc-go/app/common"
+	"test-pvc-go/app/common"
 
 	"github.com/gorilla/mux"
 )
